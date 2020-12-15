@@ -5,8 +5,9 @@ Documentation for pytests can be found here: https://docs.pytest.org"""
 # Import testing framework.
 import pytest
 # Import file containing methods to test.
+import os
 import sys
-sys.path.insert(0, '/Volumes/EMBR/Development/Software Development/Python/POSIXDate')
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from helpers import check_meridiem, convert_to_24_hour_time
 
 
