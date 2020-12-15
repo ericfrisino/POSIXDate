@@ -79,7 +79,7 @@ target/
 
 # IPython
 profile_default/
-ipython_config.py
+*config.py
 
 # pyenv
 .python-version
@@ -123,3 +123,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My Stuff
+logs/
