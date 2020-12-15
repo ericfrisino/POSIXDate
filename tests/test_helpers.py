@@ -6,7 +6,7 @@ Documentation for pytests can be found here: https://docs.pytest.org"""
 import pytest
 # Import file containing methods to test.
 import sys
-sys.path.insert(0, '/Users/ericfrisino/PycharmProjects/POSIXDate/')
+sys.path.insert(0, '/Volumes/EMBR/Development/Software Development/Python/POSIXDate')
 from helpers import check_meridiem, convert_to_24_hour_time
 
 
