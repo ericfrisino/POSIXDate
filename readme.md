@@ -1,6 +1,6 @@
-# Standard Date to ISO Formatter.
+# ISO Date to POSIX Formatter.
 
-Command line python application that take a date in the format of `YYYY-MM-DD HH:MM:SS` and converts it to ISO format.
+Command line python application that take a date in the format of `YYYY-MM-DD HH:MM:SS` and converts it from ISO format to POSIX format.
 
 * **Author :** Eric Frisino
 * **Copyright :** Copyright 2020, Eric Frisino
